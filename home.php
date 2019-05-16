@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-v4.3.1.min.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/bootstrap-v4.3.1.min.css" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
     
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="css/home.css" />
 
     <title>shukra</title>
   </head>
@@ -164,8 +164,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jquery-v3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="popper.min.js" crossorigin="anonymous"></script>
-    <script src="bootstrap-v4.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-v3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap-v4.3.1.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
