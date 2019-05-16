@@ -17,7 +17,7 @@ body {
 	color: #ddd;
 	line-height: 1.8em;
 	padding: 0;
-	background:#606060;
+	background:rgba(0,0,0,0.6);
 }
 
 h3 {
