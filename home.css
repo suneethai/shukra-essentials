@@ -1,0 +1,267 @@
+/* ================================================== */
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700,900,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700,700italic,100,100italic);
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+	font-family: "Open Sans",Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	color: #ddd;
+	line-height: 1.8em;
+	padding: 0;
+	background:#606060;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+
+a,a:active,a:focus,a:hover {
+	outline:none!important;
+	text-decoration:none;
+}
+
+a {
+	transition:all 0.2s ease-in-out;
+	color:#333;
+}
+
+a:hover {
+	color:#7d3c92;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.fa-facebook-f:before {
+  content: "\f09a";
+}
+
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background-image: url(../images/bg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 390px;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+header img {
+  width: 150px;
+  height: 100px;
+}
+
+.logo-label {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-top: -19px;
+  color: #de3370;
+  letter-spacing: .1px;
+  font-size: 16px;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.align-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.header h1 {
+  float: none;
+  padding: 0;
+  color: #eceff3;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.header h4 {
+  color: #de3370;
+  display: inline-block;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Tangerine', cursive;
+  line-height: 1;
+}
+
+section {
+  background-color: #fff;
+  padding: 80px 0 80px 0;
+}
+
+.color-overlay {
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  height: 390px;
+  width: 100%;
+}
+
+footer {
+  padding: 60px 0 0 0;
+  background: #111;
+	color: #ccc;
+}
+
+.footer-bottom {
+  background: #151515;
+  padding: 30px 0 20px 0;
+  margin-top: 30px;
+}
+
+.footer-card {
+  padding-bottom: 30px;
+}
+
+.footer-card h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-card p {
+  color: #ccc;
+  line-height: 28px;
+}
+
+.footer-card .fas {
+  width: 20px;
+}
+
+address {
+  margin: 0;
+  margin-top: 20px;
+}
+
+address span {
+  display: block;
+  border-bottom: solid 1px #222;
+  border-bottom-color: rgba(255,255,255,.1);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+address span strong {
+  display: inline-block;
+  width: 60px;
+  font-weight: bold;
+}
+
+footer h3, address span a {
+  color: #fff;
+}
+
+.box-border {
+  padding: 20px;
+  border: 3px solid #de3370;
+}
+
+.bussiness-hour li {
+  border-bottom: solid 1px rgba(255,255,255,.1);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  width: 30px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.services {
+  background-color: rgba(242,232,217,1);
+}
+
+.photo-frame {
+  overflow: hidden;
+  height: 300px;
+}
+
+.photo-frame img {
+  width: 85%; 
+  height: 100%;
+  border: 4px solid rgba(64,35,29,1);
+  display: inline-block; 
+  margin-left: 0px; 
+  margin-top: 0px;
+}
+
+.services h3, .services p {
+  color: #333;
+}
+
+.single-space {
+  width: 100%;
+  height: 30px;
+  display: block;
+  clear: both;
+}
+
+.half-space {
+  width: 100%;
+  height: 15px;
+  display: block;
+  clear: both;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
