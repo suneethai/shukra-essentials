@@ -59,7 +59,7 @@ ul, ol, li {
 .header {
   position: relative;
   text-align: center;
-  background-image: url(../images/b5.jpg);
+  background-image: url(../images/b2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 20%;
@@ -127,7 +127,7 @@ section {
 }
 
 .color-overlay {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.26);
   position: absolute;
   top: 0;
   height: 400px;
