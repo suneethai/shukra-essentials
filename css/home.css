@@ -59,7 +59,7 @@ ul, ol, li {
 .header {
   position: relative;
   text-align: center;
-  background-image: url(../images/b2.jpg);
+  background-image: url(../images/b5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 20%;
@@ -81,7 +81,7 @@ header img {
   text-align: center;
   font-family: 'Lobster Two', cursive;
   margin-top: -19px;
-  color: #de3370;
+  color: #fff;
   letter-spacing: .3px;
   font-size: 18px;
 }
@@ -180,7 +180,7 @@ address span {
 
 address span strong {
   display: inline-block;
-  width: 60px;
+  width: 80px;
   font-weight: bold;
 }
 
